@@ -1,9 +1,10 @@
 import "./App.css";
+import Home from "./pages/HomePage/Home";
 
 function App() {
   return (
     <>
-      <h1 className="bg-slate-600">Bangla Puzzle</h1>
+      <Home />
     </>
   );
 }
