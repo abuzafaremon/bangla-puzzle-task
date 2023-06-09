@@ -4,7 +4,7 @@ import { FaNewspaper } from "react-icons/fa";
 import { FaPassport } from "react-icons/fa";
 const Service = () => {
   return (
-    <section className="bg-[#115c8f] py-10">
+    <section className="bg-[#115c8f] py-10 px-5">
       <div className="container mx-auto">
         <div className="text-center">
           <h2 className="text-2xl md:text-4xl text-white font-semibold">
