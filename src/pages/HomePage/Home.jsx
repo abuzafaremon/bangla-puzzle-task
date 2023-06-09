@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import Ideology from "../../components/Ideology/Ideology";
+import Initiatives from "../../components/Initiatives/Initiatives";
 import Inspiration from "../../components/Inspiration/Inspiration";
 import Journey from "../../components/Journey/Journey";
 import Service from "../../components/Service/Service";
@@ -14,6 +15,7 @@ const Home = () => {
       <Inspiration />
       <UpcomingEvent />
       <Journey />
+      <Initiatives />
     </>
   );
 };
