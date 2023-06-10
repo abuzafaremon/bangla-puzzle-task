@@ -71,7 +71,7 @@ const Initiatives = () => {
                   />
                 </dir>
               </div>
-              <div className="uppercase text-lg sm:text-2xl text-[#115c8f] font-semibold py-2 px-2 text-center">
+              <div className="uppercase text-lg sm:text-2xl text-[#115c8f] font-semibold py-2 px-2 text-center sm:text-left">
                 <span>Startup Bangladesh</span>
               </div>
             </a>
@@ -105,7 +105,7 @@ const Initiatives = () => {
                   />
                 </dir>
               </div>
-              <div className="uppercase text-lg sm:text-2xl text-[#115c8f] font-semibold py-2 px-2 text-center">
+              <div className="uppercase text-lg sm:text-2xl text-[#115c8f] font-semibold py-2 px-2 text-center sm:text-left">
                 <span>Food For Nation</span>
               </div>
             </a>
