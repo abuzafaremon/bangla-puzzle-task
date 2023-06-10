@@ -15,7 +15,7 @@ const VideoGallery = () => {
                 src="https://www.youtube.com/embed/k0FC8biMK6A"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="w-full h-72 sm:h-full relative">
@@ -24,7 +24,7 @@ const VideoGallery = () => {
                 src="https://www.youtube.com/embed/k0FC8biMK6A"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="w-full h-72 sm:h-full relative">
@@ -33,7 +33,7 @@ const VideoGallery = () => {
                 src="https://www.youtube.com/embed/k0FC8biMK6A"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="w-full h-72 sm:h-full relative">
@@ -42,7 +42,7 @@ const VideoGallery = () => {
                 src="https://www.youtube.com/embed/k0FC8biMK6A"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="w-full h-72 sm:h-full relative">
@@ -51,7 +51,7 @@ const VideoGallery = () => {
                 src="https://www.youtube.com/embed/k0FC8biMK6A"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
             <div className="w-full h-72 sm:h-full relative">
@@ -60,7 +60,7 @@ const VideoGallery = () => {
                 src="https://www.youtube.com/embed/k0FC8biMK6A"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>
