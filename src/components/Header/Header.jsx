@@ -39,12 +39,7 @@ const Header = () => {
               }`}
             >
               <li className="px-1 py-1">
-                <span
-                  className="text-white font-medium text-lg hover:text-[#15E0FB] transition-all flex items-center gap-1 relative group"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <span className="text-white font-medium text-lg hover:text-[#15E0FB] transition-all flex items-center gap-1 relative group">
                   <span>About Zafar</span>
                   <FaChevronDown />
                   <ul className="absolute top-6 w-36 bg-gray-700 text-white p-4 rounded cursor-default hidden group-hover:block">
@@ -92,12 +87,7 @@ const Header = () => {
                 </a>
               </li>
               <li className="px-1 py-1">
-                <a
-                  className="text-white font-medium text-lg hover:text-[#15E0FB] transition-all flex items-center gap-1 relative group"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <span className="text-white font-medium text-lg hover:text-[#15E0FB] transition-all flex items-center gap-1 relative group">
                   <span>Media</span>
                   <FaChevronDown />
                   <ul className="absolute top-6 w-36 bg-gray-700 text-white p-4 rounded cursor-default hidden group-hover:block z-10">
@@ -142,15 +132,10 @@ const Header = () => {
                       </a>
                     </li>
                   </ul>
-                </a>
+                </span>
               </li>
               <li className="px-1 py-1">
-                <a
-                  className="text-white font-medium text-lg hover:text-[#15E0FB] transition-all flex items-center gap-1 relative group"
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <span className="text-white font-medium text-lg hover:text-[#15E0FB] transition-all flex items-center gap-1 relative group">
                   <span>Gallery</span>
                   <FaChevronDown />
                   <ul className="absolute top-6 w-36 bg-gray-700 text-white p-4 rounded cursor-default hidden group-hover:block">
@@ -175,7 +160,7 @@ const Header = () => {
                       </a>
                     </li>
                   </ul>
-                </a>
+                </span>
               </li>
               <li className="px-1 py-1">
                 <a
