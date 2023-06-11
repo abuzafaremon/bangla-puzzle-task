@@ -13,6 +13,7 @@ const Hero = () => {
     },
   ];
   const settings = {
+    arrows: false,
     autoplay: true,
     autoplaySpeed: 3000,
     infinite: true,
@@ -22,25 +23,27 @@ const Hero = () => {
     adaptiveHeight: true,
   };
   return (
-    <div className="bg-[#115c8f] overflow-hidden text-white">
-      <Slider {...settings}>
-        {sliderArr.map(({ id, img, text }) => (
-          <div key={id} className="relative">
-            <img
-              className="w-full h-[500px] object-cover"
-              src={img}
-              alt="img"
-            />
-            <div className="absolute top-2/4 left-5 -translate-y-2/4 bg-black bg-opacity-50 w-3/4 md:w-1/2 py-5 px-5">
-              <h2 className="text-3xl hover:underline mb-2">{text}</h2>
-              <div className="flex justify-center items-center">
-                <button className="bg-[#115c8f] px-4 py-2">Read More</button>
+    <section className="bg-[#115c8f] overflow-hidden text-white">
+      <div className="container mx-auto">
+        <Slider {...settings}>
+          {sliderArr.map(({ id, img, text }) => (
+            <div key={id} className="relative w-full h-[500px]">
+              <img
+                className="w-full h-full object-cover object-top"
+                src={img}
+                alt="img"
+              />
+              <div className="absolute top-2/4 left-5 -translate-y-2/4 bg-black bg-opacity-50 w-3/4 md:w-1/2 py-5 px-5">
+                <h2 className="text-3xl hover:underline mb-2">{text}</h2>
+                <div className="flex justify-center items-center">
+                  <button className="bg-[#115c8f] px-4 py-2">Read More</button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
-      </Slider>
-    </div>
+          ))}
+        </Slider>
+      </div>
+    </section>
   );
 };
 
