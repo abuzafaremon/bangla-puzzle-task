@@ -1,6 +1,7 @@
 import FlowerGiving from "../../components/FlowerGiving/FlowerGiving";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
+import Hero from "../../components/Hero/Hero";
 import Ideology from "../../components/Ideology/Ideology";
 import ImageGallery from "../../components/ImageGallery/ImageGallery";
 import Initiatives from "../../components/Initiatives/Initiatives";
@@ -15,6 +16,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      <Hero />
       <Service />
       <Ideology />
       <Inspiration />

@@ -9,7 +9,7 @@ const Header = () => {
     setIsNavVisible(!isNavVisible);
   };
   return (
-    <header className="p-5 bg-[#115c8f] shadow relative">
+    <header className="p-5 bg-[#115c8f] shadow sticky top-0 z-50">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <a
@@ -32,7 +32,7 @@ const Header = () => {
               </div>
             </div>
           </a>
-          <nav>
+          <nav className="z-50">
             <ul
               className={`absolute lg:relative top-full left-0 right-0 bg-[#115c8f] lg:bg-transparent lg:flex lg:flex-row items-center gap-3 h-[90vh] lg:h-auto ${
                 isNavVisible ? "flex flex-col" : "hidden"
